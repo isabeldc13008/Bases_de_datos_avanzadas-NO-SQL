@@ -1,0 +1,104 @@
+use Actividadibero1
+
+// Creación de las colecciones
+db.createCollection("Jugadores")
+db.createCollection("Entrenadores")
+db.createCollection("Árbitros")
+db.createCollection("Encuentros")
+db.createCollection("Resultados")
+db.createCollection("TablaPosiciones")
+
+// Creación de índices
+db.Jugadores.createIndex({ equipo: 1 })
+db.Entrenadores.createIndex({ equipo: 1 })
+db.TablaPosiciones.createIndex({ equipo: 1 })
+
+
+// Ingreso de datos
+
+db.Jugadores.insertOne({
+  nombre: "Lionel Messi",
+  edad: 34,
+  posición: "Delantero",
+  equipo: "Paris Saint-Germain"
+})
+
+db.Jugadores.insertOne({
+  nombre: "Cristiano Ronaldo",
+  edad: 36,
+  posición: "Delantero",
+  equipo: "Manchester United"
+})
+
+db.Jugadores.insertOne({
+  nombre: "Neymar Jr",
+  edad: 29,
+  posición: "Delantero",
+  equipo: "Paris Saint-Germain"
+})
+
+db.TablaPosiciones.insertOne({
+  equipo: "Manchester United",
+  puntos: 9,
+  partidos_jugados: 3,
+  partidos_ganados: 3,
+  partidos_empatados: 0,
+  partidos_perdidos: 0,
+  goles_favor: 8,
+  goles_contra: 2,
+  diferencia_goles: 6
+})
+
+db.TablaPosiciones.insertOne({
+  equipo: "Paris Saint-Germain",
+  puntos: 6,
+  partidos_jugados: 3,
+  partidos_ganados: 2,
+  partidos_empatados: 0,
+  partidos_perdidos: 1,
+  goles_favor: 5,
+  goles_contra: 3,
+  diferencia_goles: 2
+})
+
+db.Resultados.insertOne({
+  encuentro: ObjectId("id_del_encuentro"),
+  goles_local: 2,
+  goles_visitante: 1
+})
+
+db.Encuentros.insertOne({
+  fecha: new Date("2023-05-01"),
+  equipo_local: "Manchester United",
+  equipo_visitante: "Liverpool",
+  árbitro: "Mark Clattenburg"
+})
+
+db.Encuentros.insertOne({
+  fecha: new Date("2023-05-02"),
+  equipo_local: "Paris Saint-Germain",
+  equipo_visitante: "Manchester City",
+  árbitro: "Felix Brych"
+})
+
+db.Árbitros.insertOne({
+  nombre: "Mark Clattenburg",
+  edad: 46
+})
+
+db.Árbitros.insertOne({
+  nombre: "Felix Brych",
+  edad: 46
+})
+
+db.Entrenadores.insertOne({
+  nombre: "Pep Guardiola",
+  edad: 50,
+  equipo: "Manchester City"
+})
+
+db.Entrenadores.insertOne({
+  nombre: "Jurgen Klopp",
+  edad: 54,
+  equipo: "Liverpool"
+})
