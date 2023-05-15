@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "646084f3a272088904c8beb3"
+  },
+  "equipo": "Manchester United",
+  "puntos": 9,
+  "partidos_jugados": 3,
+  "partidos_ganados": 3,
+  "partidos_empatados": 0,
+  "partidos_perdidos": 0,
+  "goles_favor": 8,
+  "goles_contra": 2,
+  "diferencia_goles": 6
+},{
+  "_id": {
+    "$oid": "646084f3a272088904c8beb4"
+  },
+  "equipo": "Paris Saint-Germain",
+  "puntos": 6,
+  "partidos_jugados": 3,
+  "partidos_ganados": 2,
+  "partidos_empatados": 0,
+  "partidos_perdidos": 1,
+  "goles_favor": 5,
+  "goles_contra": 3,
+  "diferencia_goles": 2
+}]

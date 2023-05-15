@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "646084cfa272088904c8beb1"
+  },
+  "fecha": {
+    "$date": "2023-05-01T00:00:00.000Z"
+  },
+  "equipo_local": "Manchester United",
+  "equipo_visitante": "Liverpool",
+  "árbitro": "Mark Clattenburg"
+},{
+  "_id": {
+    "$oid": "646084cfa272088904c8beb2"
+  },
+  "fecha": {
+    "$date": "2023-05-02T00:00:00.000Z"
+  },
+  "equipo_local": "Paris Saint-Germain",
+  "equipo_visitante": "Manchester City",
+  "árbitro": "Felix Brych"
+}]

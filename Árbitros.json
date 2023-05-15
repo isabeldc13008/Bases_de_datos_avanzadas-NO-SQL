@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "646084c7a272088904c8beaf"
+  },
+  "nombre": "Mark Clattenburg",
+  "edad": 46
+},{
+  "_id": {
+    "$oid": "646084c7a272088904c8beb0"
+  },
+  "nombre": "Felix Brych",
+  "edad": 46
+}]

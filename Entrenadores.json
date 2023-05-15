@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "646084c1a272088904c8bead"
+  },
+  "nombre": "Pep Guardiola",
+  "edad": 50,
+  "equipo": "Manchester City"
+},{
+  "_id": {
+    "$oid": "646084c1a272088904c8beae"
+  },
+  "nombre": "Jurgen Klopp",
+  "edad": 54,
+  "equipo": "Liverpool"
+}]

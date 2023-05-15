@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "646084b4a272088904c8beaa"
+  },
+  "nombre": "Lionel Messi",
+  "edad": 34,
+  "posición": "Delantero",
+  "equipo": "Paris Saint-Germain"
+},{
+  "_id": {
+    "$oid": "646084b4a272088904c8beab"
+  },
+  "nombre": "Cristiano Ronaldo",
+  "edad": 36,
+  "posición": "Delantero",
+  "equipo": "Manchester United"
+},{
+  "_id": {
+    "$oid": "646084b4a272088904c8beac"
+  },
+  "nombre": "Neymar Jr",
+  "edad": 29,
+  "posición": "Delantero",
+  "equipo": "Paris Saint-Germain"
+}]
